@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: 1.5rem;
+}
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gallery_item-avocado {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gallery_item-strawberries {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item-fruitbowl {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery_item-banana {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.gallery_item-pineapple {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.gallery_item-kiwi {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.gallery_item-cherries {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.gallery_item-orange {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+.gallery_item-market {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
